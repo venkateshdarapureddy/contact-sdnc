@@ -14,7 +14,7 @@ function App() {
             <Label htmlFor='First Name'>First Name <span className='text-[#0a7d69]'>*</span></Label>
             <Input type="text " name="First name" placeholder="" />
           </div><div>
-            <Label htmlFor='First Name'>First Name <span className='text-[#0a7d69]'>*</span></Label>
+            <Label htmlFor='First Name'>Last Name <span className='text-[#0a7d69]'>*</span></Label>
             <Input type="text " name="First name" placeholder="" />
           </div>
 
