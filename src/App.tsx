@@ -9,11 +9,15 @@ function App() {
   return (
     <div className='w-full h-screen flex items-center justify-center bg-green-100'>
       <div className="grid w-full max-w-lg items-center text-left  m-auto bg-white pl-11 pr-11 pt-8  pb-10 rounded-xl shadow-lg flex-col gap-4 ">
-        <div className="flex gap-3 ">
-          <div>
-            <Label htmlFor='First Name'>First Name <span className='text-[#0a7d69]'>*</span></Label>
+        
+        <h2 className='font-bold text-[24px]'>Contact Us</h2>
+        <div className="flex gap-3  ">
+          <div className='w-[207px]'>
+            
+            <Label htmlFor='First Name '>First Name <span className='text-[#0a7d69]'>*</span></Label>
             <Input type="text " name="First name" placeholder="" />
-          </div><div>
+          </div>
+          <div className='w-[207px]'>
             <Label htmlFor='First Name'>Last Name <span className='text-[#0a7d69]'>*</span></Label>
             <Input type="text " name="First name" placeholder="" />
           </div>
