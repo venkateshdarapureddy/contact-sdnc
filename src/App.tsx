@@ -19,7 +19,7 @@ function App() {
           </div>
 
         </div>
-        <Label htmlFor='First Name'>Email Address<span className='text-[#0a7d69]'>*</span></Label>
+        <Label htmlFor='First Name'>Email Address <span className='text-[#0a7d69]'>*</span></Label>
         <Input type="email" placeholder="" />
 
         <div className=" mt-3">Query Type <span className='text-[#0a7d69]'>*</span></div>
@@ -58,7 +58,7 @@ function App() {
             </label>
           </div>
         </div>
-        <Button className='bg-[#0a7d69]'>submit</Button>
+        <Button className='bg-[#0a7d69] hover:text-[#0a7d69]'>submit</Button>
       </div></div>
 
   )
